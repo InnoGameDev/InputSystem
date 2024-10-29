@@ -1,6 +1,6 @@
-# Unity Input System - 'Warriors' Example Project
+# Unity Input System  Example Project
 
-![warriors.png](https://i.imgur.com/m4cuul3.png)
+
 
 
 ## Overview
@@ -9,7 +9,6 @@
 
 This Unity example project has been created to demonstrate a variety of tools and functionality with Unity's Input System.
 
-You can learn more about the Input System here: https://unity.com/features/input-system
 
 
 **Input System Demonstrated Scenarios**
@@ -34,9 +33,6 @@ You can learn more about the Input System here: https://unity.com/features/input
 
 ## Project Versions and Branches
 *Important:* The project is in continuous development and improvement! Branches are used as 'time-stamps' for project states for Webinars.
-- [Branch: V1](https://github.com/UnityTechnologies/InputSystem_Warriors/tree/V1) - [Unite Now: Input System - Meet The Devs (April 2020)](https://www.youtube.com/watch?v=gVus9PqfgAM)
-- [Branch: V2](https://github.com/UnityTechnologies/InputSystem_Warriors/tree/V2) - [Unite Now: Input System: Workflow Tips & Feature Integrations (November 2020)](https://www.youtube.com/watch?v=xF2zUOfPyg8)
-- [Master](https://github.com/UnityTechnologies/InputSystem_Warriors) - Most Recent [Unite Now Webinar](https://www.youtube.com/watch?v=xF2zUOfPyg8)
 
 
 ## Tech Info
@@ -76,7 +72,6 @@ If you do use this example project in some form, please feel free to contact And
 
 This example project is developed by Unity Technologies and has involvement from R&D, Product Management, Product Marketing and Evangelism.
 
-If you have any feedback or questions about Unity's Input System, you are invited to join us on the forums: https://forum.unity.com/forums/new-input-system.103/
 
 If you have any issues, errors or feedback about the example project; you can open an issue on this repository or send an email to andyt[at]unity3d.com
 
@@ -85,5 +80,3 @@ If you have any issues, errors or feedback about the example project; you can op
 - The GameManager script has a toggle for spawning a group of Warriors at Runtime.
   - The number of warriors that is spawned is based on a fixed integer variable (manually set in the Inspector), and is not based on the number of input devices connected and detected.
 
-- When opening the project for the first time, the **Pause Menu Screen Blur Effect** might not be rendering.
-  - To fix this, locate the **UniversalRenderPipeline_Renderer_MenuBlur** asset and add the **Kawase Blur Render Pass** to the Renderer Features
